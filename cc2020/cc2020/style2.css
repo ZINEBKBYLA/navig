@@ -1,0 +1,177 @@
+body {
+    background-color: white;
+    color: #404040;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header ul {
+    display: flex;
+    text-transform: uppercase;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav {
+    background-color: #5a5a5a;
+    margin-left: 100px;
+    color: #169fe5;
+    align-self: center;
+    font-size: 13pt;
+    border-radius: 5px;
+    padding: 10px 5px;
+}
+
+header nav li {
+    margin: 0 10px;
+}
+
+header nav a {
+    color: #169fe5;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    color: white;
+}
+
+#intro {
+    position: relative;
+    background-color: #E9EAEB;
+    padding-top: 15px;
+    border-radius: 5px;
+}
+
+#intro p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+
+#image-description {
+    padding: 10px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    text-align: center;
+}
+
+.icons {
+    border-radius: 50%;
+    border: 3px solid #808080;
+    float: left;
+    margin: 0 15px;
+}
+
+.icons:hover {
+    border: 3px solid #169fe5;
+}
+
+h1,h2 {
+    color: #169fe5;
+}
+
+.titre {
+    color: #404040;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#sec1 {
+    border: 3px double #CDCDCD;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+#sec1 h1{
+    margin-top: 0px;
+}
+
+#sec1 p {
+    text-align: justify;
+    margin-top: 3px;
+}
+
+#sec1 h2 {
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+#sec2 {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#sec3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#sec3 h2, #sec2 h1 {
+    margin-top: 1px;
+}
+
+#sec3 h2 {
+    font-style: italic;
+}
+
+#sec3 p {
+    text-align: justify;
+}
+
+.element {
+    display: inline-block;
+    padding: 10px 10px 15px 10px;
+    width: 30%;
+    border: 3px double #CDCDCD;
+    border-radius: 4px;
+}
+
+.element a {
+    text-decoration: none;
+}
+
+.button {
+    background-color: #169fe5;
+    border-radius: 8%;
+    padding: 5px 10px;
+    color: white;
+    float: right;
+}
+
+footer {
+    margin-top: 25px;
+    background-color: #5a5a5a;
+    color: #dbdbdb;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pied-page {
+    width: 33%;
+    text-align: center;
+}
+
+.pied-page img {
+    margin-bottom: 5px;
+}
